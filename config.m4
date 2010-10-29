@@ -80,12 +80,20 @@ if test "$PHP_UNICHAR" != "no"; then
     dnl
     export OLD_LIBS="$LIBS"
     export LIBS="$LIBS -lpthread"
-    PHP_CHECK_LIBRARY(icuuc, unorm_normalize${ICU_VERSION_SUFFIX},
+    PHP_CHECK_LIBRARY(icuuc, unorm_normalize_${ICU_VERSION_SHORT},
       [
         PHP_EVAL_INCLINE($ICU_INCLINE)
         PHP_EVAL_LIBLINE($ICU_LIBLINE, UNICHAR_SHARED_LIBADD)
       ],[
-        AC_MSG_ERROR([wrong ICU library version or lib not found. Check config.log for more information])
+        PHP_CHECK_LIBRARY(icuuc, unorm_normalize${ICU_VERSION_SUFFIX},
+          [
+            PHP_EVAL_INCLINE($ICU_INCLINE)
+            PHP_EVAL_LIBLINE($ICU_LIBLINE, UNICHAR_SHARED_LIBADD)
+          ],[
+            AC_MSG_ERROR([wrong ICU library version or lib not found. Check config.log for more information])
+          ],[
+            $ICU_LIBLINE
+          ])
       ],[
         $ICU_LIBLINE
       ])
