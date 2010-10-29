@@ -1,0 +1,8 @@
+// $ Id: $
+// vim:ft=javascript
+
+ARG_ENABLE('unichar' , 'Unicode Character Utility Extension', 'no');
+if (PHP_UNICHAR == "yes") {
+  EXTENSION("unichar", "unichar.c");
+  AC_DEFINE("HAVE_UNICHAR", 1, "unichar support");
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>unichar</name>
+ <channel>pecl.opendogs.org</channel>
+ <summary>The Unicode Character Utility Extension for PHP.</summary>
+ <description>The Unicode Character Utility Extension for PHP.</description>
+ <lead>
+  <name>Ryusuke SEKIYAMA</name>
+  <user>rsk</user>
+  <email>rsky0711@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-10-29</date>
+ <time>03:57:46</time>
+ <version>
+  <release>0.4.0</release>
+  <api>0.4.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
+ <notes>
+- Initial release on PEAR channel.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="fcf08ec0e0571036187aedaa45e4a67d" name="manual/file-entities.ent" role="doc" />
+   <file baseinstalldir="/" md5sum="0f7b90bc50adfdd88129c10b47178da7" name="manual/functions.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="5ca05f19f9969a84185344f3b9eae1f8" name="manual/Makefile" role="doc" />
+   <file baseinstalldir="/" md5sum="9fcf36d2013b41b4c8fc2e28df786a18" name="manual/manual.xml.in" role="doc" />
+   <file baseinstalldir="/" md5sum="d02f6982912d5650f221840473b81f77" name="manual/unichar/configure.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="3d64db8ee1fd1713248c72da5508d04d" name="manual/unichar/reference.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="f31e1aace19a2f00c1826d5d67cd73ce" name="manual/unichar/functions/unichar-icu-version.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="3e2aaaa8e960ba26f6aa41de036db67c" name="manual/unichar/functions/unichr-array.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="a0d96bb3c1f09c279ba5cf2cbc668c85" name="manual/unichar/functions/unichr.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="a2a0c1c52a773f368fcc41d5e91831fc" name="manual/unichar/functions/uniord-array.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="5f514c8512ea11291d58570332e02371" name="manual/unichar/functions/uniord.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="1cce06b8e36fdfb866ea17d3e468d659" name="manual/unichar/functions/unistr-decode-entity.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="f3757ac93a4fe6aea369e8195d3b81bc" name="manual/unichar/functions/unistr-ngram.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="fb9b946b07316bfe0ea4add1012a5f88" name="manual/unichar/functions/unistr-rotate.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="399bb772b380626039e43818eccfcf6b" name="manual/unichar/functions/unistr-validate.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="3f0e51623c7bccd8c640a29fb31bcc2e" name="manual/unichar/functions/unorm-nfc.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="fc70ed2c2059e51e30931a7f007adf52" name="manual/unichar/functions/unorm-nfd.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="d4e0e0985cfdd28adce45994b309e79e" name="manual/unichar/functions/unorm-nfkc.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="6546798bacd6f29fe1edd830dc06a841" name="manual/unichar/functions/unorm-nfkd.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="99bc918ea7805e82fcba4a4b6c33ad1f" name="tests/skipif.inc" role="test" />
+   <file baseinstalldir="/" md5sum="1916b4d7c2f7108d7bdf660c368cb544" name="tests/skipif_icu.inc" role="test" />
+   <file baseinstalldir="/" md5sum="266689331645f4ef150f50b9430f962e" name="tests/unichar_icu_version.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="29369906e2d6e8379a449dcdb93e426a" name="tests/unichar_icu_version2.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="978be92b5215e86c74ab9b98e34c7001" name="tests/unichr.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="b5f54f971dbc43e152325bd287bc06fa" name="tests/unichr_array.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="a9a6f98c80aaab8318b1bd2a516b320d" name="tests/uniord.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="7ffa60e348f2565f6669a60f4e44e2fa" name="tests/uniord_array.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="b0acfbf6b368291c8a6849f2cab6bbed" name="tests/unistr_decode_entity.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="d2c2c48c19e7c67f3cb8a201c82e6a91" name="tests/unistr_ngram.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="d74a47a4bd4793bf06dc632369e86c3d" name="tests/unistr_rotate.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="546727e1c86ba6b0f765b6d39e7c3324" name="tests/unistr_validate.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="72ae2153b4da38c3fe1cb18c20dc10f6" name="tests/unorm_nfc.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="1be2ec35e10b4a12300a752be2ebe519" name="tests/unorm_nfd.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="bf5560631adc92f6ea73e2a89256548c" name="tests/unorm_nfkc.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="cfe40a32ae6a06977b8ff0ba48e1154d" name="tests/unorm_nfkd.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="cef1b9fba4bf4aeb0a9424eb498c5469" name="config.m4" role="src" />
+   <file baseinstalldir="/" md5sum="7e5492d855b78bc351aaf3e9f5b1ffd7" name="config.w32" role="src" />
+   <file baseinstalldir="/" md5sum="f619ede12bc9898e022dd83a4147fb87" name="CREDITS" role="doc" />
+   <file baseinstalldir="/" md5sum="7291f1b05a4608bc9223993fd2bea6c2" name="EXPERIMENTAL" role="doc" />
+   <file baseinstalldir="/" md5sum="cf40ac5fa27cc3ba0d44c44a455f9b64" name="LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="0e79d0711f5c14cb6c22808bae685f8d" name="php_unichar.h" role="src" />
+   <file baseinstalldir="/" md5sum="52221f5a6766476bb1d20a39428beb07" name="README" role="doc" />
+   <file baseinstalldir="/" md5sum="57928da7ca0360c01aa1b228cfb700c1" name="unichar.c" role="src" />
+   <file baseinstalldir="/" md5sum="fbf76722152da889565b04efac4b9184" name="unichar.dsp" role="src" />
+   <file baseinstalldir="/" md5sum="e6c13ad565cc05784b903c66724f4649" name="unichar_entity.h" role="src" />
+   <file baseinstalldir="/" md5sum="03b54271f03acc4c644d65d54631d590" name="unichar_icu.h" role="src" />
+   <file baseinstalldir="/" md5sum="8e0c1aae77148c12a91939f882ade2f5" name="zval_zval.h" role="src" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.4.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <providesextension>unichar</providesextension>
+ <extsrcrelease>
+  <configureoption default="no" name="with-unichar-icu" prompt="Enable ICU-related features. Yes, no or pathname to icu-config." />
+ </extsrcrelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-10-29</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
+   <notes>
+- Initial release on PEAR channel.
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,13 @@
+ &reference.unichar.functions.unichar-icu-version;
+ &reference.unichar.functions.unichr;
+ &reference.unichar.functions.unichr-array;
+ &reference.unichar.functions.uniord;
+ &reference.unichar.functions.uniord-array;
+ &reference.unichar.functions.unistr-decode-entity;
+ &reference.unichar.functions.unistr-ngram;
+ &reference.unichar.functions.unistr-rotate;
+ &reference.unichar.functions.unistr-validate;
+ &reference.unichar.functions.unorm-nfc;
+ &reference.unichar.functions.unorm-nfd;
+ &reference.unichar.functions.unorm-nfkc;
+ &reference.unichar.functions.unorm-nfkd;
