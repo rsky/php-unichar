@@ -30,6 +30,8 @@
 #ifndef _PHP_UNICHAR_ENTITY_H_
 #define _PHP_UNICHAR_ENTITY_H_
 
+#include <stdint.h>
+
 /* {{{ type definitions */
 
 typedef int8_t utf8size_t;

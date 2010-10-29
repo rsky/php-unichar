@@ -183,6 +183,7 @@ static zend_function_entry unichar_functions[] = {
 	PHP_FE(unorm_nfkc, arginfo_unorm)
 	PHP_FE(unorm_nfkd, arginfo_unorm)
 #endif
+	/* ICU version information function */
 	PHP_FE(unichar_icu_version, NULL)
 	{ NULL, NULL, NULL }
 };
@@ -1181,8 +1182,10 @@ static PHP_FUNCTION(unorm_nfkd)
    */
 static PHP_FUNCTION(unichar_icu_version)
 {
+#ifdef WITH_UNICHAR_ICU
 	char *version = unichar_icu_library_version;
 	size_t len = strlen(version);
+#endif
 
 	if (ZEND_NUM_ARGS() != 0) {
 		WRONG_PARAM_COUNT;
