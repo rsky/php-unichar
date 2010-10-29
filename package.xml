@@ -14,7 +14,7 @@
   <active>yes</active>
  </lead>
  <date>2010-10-29</date>
- <time>03:57:46</time>
+ <time>04:13:09</time>
  <version>
   <release>0.4.0</release>
   <api>0.4.0</api>
@@ -64,16 +64,16 @@
    <file baseinstalldir="/" md5sum="1be2ec35e10b4a12300a752be2ebe519" name="tests/unorm_nfd.phpt" role="test" />
    <file baseinstalldir="/" md5sum="bf5560631adc92f6ea73e2a89256548c" name="tests/unorm_nfkc.phpt" role="test" />
    <file baseinstalldir="/" md5sum="cfe40a32ae6a06977b8ff0ba48e1154d" name="tests/unorm_nfkd.phpt" role="test" />
-   <file baseinstalldir="/" md5sum="cef1b9fba4bf4aeb0a9424eb498c5469" name="config.m4" role="src" />
+   <file baseinstalldir="/" md5sum="b4949487f7a959efdedeb87f068c7e3f" name="config.m4" role="src" />
    <file baseinstalldir="/" md5sum="7e5492d855b78bc351aaf3e9f5b1ffd7" name="config.w32" role="src" />
    <file baseinstalldir="/" md5sum="f619ede12bc9898e022dd83a4147fb87" name="CREDITS" role="doc" />
    <file baseinstalldir="/" md5sum="7291f1b05a4608bc9223993fd2bea6c2" name="EXPERIMENTAL" role="doc" />
    <file baseinstalldir="/" md5sum="cf40ac5fa27cc3ba0d44c44a455f9b64" name="LICENSE" role="doc" />
    <file baseinstalldir="/" md5sum="0e79d0711f5c14cb6c22808bae685f8d" name="php_unichar.h" role="src" />
    <file baseinstalldir="/" md5sum="52221f5a6766476bb1d20a39428beb07" name="README" role="doc" />
-   <file baseinstalldir="/" md5sum="57928da7ca0360c01aa1b228cfb700c1" name="unichar.c" role="src" />
+   <file baseinstalldir="/" md5sum="ba0484e768fe52edda21925a9dee5516" name="unichar.c" role="src" />
    <file baseinstalldir="/" md5sum="fbf76722152da889565b04efac4b9184" name="unichar.dsp" role="src" />
-   <file baseinstalldir="/" md5sum="e6c13ad565cc05784b903c66724f4649" name="unichar_entity.h" role="src" />
+   <file baseinstalldir="/" md5sum="9b5274733b2ff18de7bfbec525801167" name="unichar_entity.h" role="src" />
    <file baseinstalldir="/" md5sum="03b54271f03acc4c644d65d54631d590" name="unichar_icu.h" role="src" />
    <file baseinstalldir="/" md5sum="8e0c1aae77148c12a91939f882ade2f5" name="zval_zval.h" role="src" />
   </dir>
